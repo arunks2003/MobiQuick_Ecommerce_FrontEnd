@@ -1,0 +1,147 @@
+/* src/Register.css */
+.register-container {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: safe;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .register-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px 0 0 12px;
+    object-fit: cover;
+  }
+  
+  .register-form-container {
+    margin-left: 2rem;
+    padding: 1rem;
+    max-width: 600px;
+    color: #333;
+  }
+  
+  .register-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #000;
+    outline: none;
+    box-shadow: 0 0 5px rgba(47, 48, 49, 0.5);
+  }
+  
+  .submit-button {
+    padding: 0.75rem 2rem; /* Increased padding on the sides */
+    border: none;
+    border-radius: 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #b5b6b7;
+    transform: translateY(-2px);
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+  }
+  
+  .login-link p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .login-link a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .register-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .register-image img {
+      border-radius: 12px 12px 0 0;
+    }
+  
+    .register-form-container {
+      margin-left: 0;
+      padding: 1rem;
+    }
+  
+    .register-form-container h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .form-group input {
+      font-size: 0.875rem;
+    }
+  
+    .submit-button {
+      font-size: 1rem;
+    }
+  
+    .login-link p {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .register-form-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .form-group input {
+      font-size: 0.75rem;
+    }
+  
+    .submit-button {
+      font-size: 0.875rem;
+    }
+  }
+  
