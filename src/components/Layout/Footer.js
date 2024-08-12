@@ -61,11 +61,6 @@ const Footer = () => {
         </div>
         <div className="footer__section footer__social">
           <h4>Follow Us</h4>
-          {/* <p>
-            Created By Arun Kumar{":  "}
-            <Link to="https://portfolio-lovat-eight-44.vercel.app/">Site</Link>
-          </p> */}
-
           <div className="footer__social-icons">
             <Link
               href="https://facebook.com"
