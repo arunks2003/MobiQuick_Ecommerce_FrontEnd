@@ -43,7 +43,7 @@ const Header = () => {
     <header className="header">
       <div className="header__container">
         <div className="header__logo">
-          <Link to="/">MobiQuick</Link>
+          <Link to="/">TradeCove</Link>
         </div>
         <nav className="header__nav">
           <ul>
