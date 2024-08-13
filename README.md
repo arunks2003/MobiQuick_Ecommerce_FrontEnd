@@ -1,8 +1,13 @@
 ![Alt text](https://github.com/arunks2003/images/blob/main/Screenshot%20(555).png)
 
 # Overview
-## Login
-![login](https://github.com/arunks2003/images/blob/main/login.pn)
+## Authentcation: 
+### Login: Tow way(user and admin)
+![login](https://github.com/arunks2003/images/blob/main/login.png)
+### Registration:
+![login](https://github.com/arunks2003/images/blob/main/register.png)
+
+#
 
 
 # Getting Started with Create React App
