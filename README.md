@@ -3,12 +3,39 @@
 # Overview
 ## Authentcation: 
 ### Login: Tow way(user and admin)
-![login](https://github.com/arunks2003/images/blob/main/login.png)
-### Registration:
-![login](https://github.com/arunks2003/images/blob/main/register.png)
+<img src="https://github.com/arunks2003/images/blob/main/login.png" width="500"/>
 
-#
+### Registration
+<img src="https://github.com/arunks2003/images/blob/main/register.png" width="500"/>
 
+## Admin(Can also do what users can):
+### Can create/delete category
+<img src="https://github.com/arunks2003/images/blob/main/admin_dash_create_cat.png" width="500"/>
+
+### Manage Category
+<img src="https://github.com/arunks2003/images/blob/main/admin_dash_manage_cat.png" width="500"/>
+
+### Can creater/delete/update product
+<img src="https://github.com/arunks2003/images/blob/main/add_prod.png" width="500"/>
+
+### Manage Orders
+<img src="https://github.com/arunks2003/images/blob/main/manage_orders.png" width="500"/>
+
+## User:
+### Can Add Product to Cart:
+<img src="https://github.com/arunks2003/images/blob/main/cart.png" width="500"/>
+
+### Order and do payment: 
+<img src="https://github.com/arunks2003/images/blob/main/payment.png" width="500"/>
+
+## Functoinalities:
+### Filter products by category and price
+<img src="https://github.com/arunks2003/images/blob/main/filter_by_category.png" width="500"/>
+<img src="https://github.com/arunks2003/images/blob/main/filter_by_category2.png" width="500"/>
+<img src="https://github.com/arunks2003/images/blob/main/filter_by_selecting.png" width="500"/>
+
+### Search Product
+<img src="https://github.com/arunks2003/images/blob/main/search.png" width="500"/>
 
 # Getting Started with Create React App
 
